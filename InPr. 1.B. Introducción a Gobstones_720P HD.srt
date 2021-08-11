@@ -1,0 +1,1104 @@
+1
+00:00:00,100 --> 00:00:03,310
+Hola, bienvenidos nuevamente a otro nuevo
+
+2
+00:00:03,310 --> 00:00:05,589
+video del curso de introducción a la
+
+3
+00:00:05,589 --> 00:00:08,590
+Programación. En esta oportunidad vamos a
+
+4
+00:00:08,590 --> 00:00:10,960
+ver una breve introducción a Gobstones y a que
+
+5
+00:00:10,960 --> 00:00:13,450
+son los programas.
+
+6
+00:00:13,450 --> 00:00:15,429
+Es importante que previo a ver este
+
+7
+00:00:15,429 --> 00:00:17,320
+Video, realicen las actividades de la
+
+8
+00:00:17,320 --> 00:00:20,170
+sección: Programas y Comandos básicos del
+
+9
+00:00:20,170 --> 00:00:22,630
+curso de Gobstones Junior. Si aún no lo
+
+10
+00:00:22,630 --> 00:00:24,970
+hiciste, mirá los videos anteriores para
+
+11
+00:00:24,970 --> 00:00:26,590
+saber cómo realizar esas actividades
+
+12
+00:00:26,590 --> 00:00:29,130
+previo a continuar
+
+13
+00:00:29,130 --> 00:00:31,800
+si realizó las actividades solicitadas
+
+14
+00:00:31,800 --> 00:00:33,840
+entonces ya se topó con los distintos
+
+15
+00:00:33,840 --> 00:00:36,300
+elementos del universo Gobstones, en particular
+
+16
+00:00:36,300 --> 00:00:38,850
+el elemento tal vez más obvio
+
+17
+00:00:38,850 --> 00:00:41,970
+que haya visto es el tablero.
+
+18
+00:00:41,970 --> 00:00:43,739
+El tablero consiste en una grilla rectangular
+
+19
+00:00:43,739 --> 00:00:46,170
+dividida en pequeñas secciones
+
+20
+00:00:46,170 --> 00:00:48,329
+a las que llamamos celdas.
+
+21
+00:00:48,329 --> 00:00:51,149
+Una celda es una ubicación donde pueden
+
+22
+00:00:51,149 --> 00:00:53,300
+haber bolitas de colores, ya sean azules
+
+23
+00:00:53,300 --> 00:00:56,940
+negras, rojas o verdes
+
+24
+00:00:56,940 --> 00:00:58,680
+ en distintas cantidades.
+
+25
+00:00:58,680 --> 00:01:01,740
+por ejemplo una celda podría no contener
+
+26
+00:01:01,740 --> 00:01:03,210
+bolitas de ninguno de los colores,
+
+27
+00:01:03,210 --> 00:01:05,519
+mientras que otra podría tener solo una
+
+28
+00:01:05,519 --> 00:01:08,460
+bolita de color azul y otra, una bolita
+
+29
+00:01:08,460 --> 00:01:11,010
+azul, dos bolitas rojas y cinco bolitas verdes.
+
+30
+00:01:11,010 --> 00:01:13,860
+Es decir, diversas combinaciones
+
+31
+00:01:13,860 --> 00:01:16,470
+posibles de bolitas de estos colores en
+
+32
+00:01:16,470 --> 00:01:18,320
+distintas cantidades.
+
+33
+00:01:18,320 --> 00:01:20,780
+Es importante comprender que no hay una
+
+34
+00:01:20,780 --> 00:01:22,940
+cantidad máxima de bolitas posibles para
+
+35
+00:01:22,940 --> 00:01:25,060
+un determinado color, en una misma celda
+
+36
+00:01:25,060 --> 00:01:27,500
+puede haber dos mil bolitas de color verde
+
+37
+00:01:27,500 --> 00:01:30,470
+o 15 millones de bolitas de color negro.
+
+38
+00:01:30,470 --> 00:01:32,750
+Seguro siempre habrá una cantidad
+
+39
+00:01:32,750 --> 00:01:35,150
+finita pero al igual que con los números,
+
+40
+00:01:35,150 --> 00:01:38,360
+no hay un máximo. El mí­nimo por supuesto
+
+41
+00:01:38,360 --> 00:01:40,640
+siempre es cero o lo que es decir lo
+
+42
+00:01:40,640 --> 00:01:43,220
+mismo, no hay bolitas de ese color en la celda.
+
+43
+00:01:43,220 --> 00:01:44,600
+
+
+44
+00:01:44,600 --> 00:01:47,030
+El tablero, puede considerarse como
+
+45
+00:01:47,030 --> 00:01:49,100
+dividido en columnas, que son las
+
+46
+00:01:49,100 --> 00:01:51,799
+divisiones verticales, o filas las
+
+47
+00:01:51,799 --> 00:01:54,020
+divisiones horizontales siendo la
+
+48
+00:01:54,020 --> 00:01:55,759
+intersección entre una columna y una fila,
+
+49
+00:01:55,759 --> 00:01:58,370
+una celda particular.
+
+50
+00:01:58,370 --> 00:02:00,770
+De esta forma, podemos nombrar las
+
+51
+00:02:00,770 --> 00:02:02,720
+distintas celdas indicando el número de
+
+52
+00:02:02,720 --> 00:02:05,360
+columna y de fila donde la numeración
+
+53
+00:02:05,360 --> 00:02:07,790
+va en las columnas de izquierda a derecha
+
+54
+00:02:07,790 --> 00:02:10,130
+y en las filas de abajo hacia arriba
+
+55
+00:02:10,130 --> 00:02:11,150
+
+
+56
+00:02:11,150 --> 00:02:13,280
+Por ejemplo, la celda marcada en este dibujo,
+
+57
+00:02:13,280 --> 00:02:17,150
+es la Celda 3,1.  Por convención,
+
+58
+00:02:17,150 --> 00:02:19,430
+nombraremos siempre primero al número
+
+59
+00:02:19,430 --> 00:02:22,510
+de columna, y luego al número de fila.
+
+60
+00:02:22,510 --> 00:02:24,950
+Existe una celda que se encuentra
+
+61
+00:02:24,950 --> 00:02:27,320
+dibujada de forma distinta al resto, con
+
+62
+00:02:27,320 --> 00:02:29,990
+un recuadro de color a su alrededor;
+
+63
+00:02:29,990 --> 00:02:33,740
+esta celda es denominada celda actual.
+
+64
+00:02:33,740 --> 00:02:35,630
+Sobre esta celda es donde se encuentra
+
+65
+00:02:35,630 --> 00:02:38,630
+posicionado el cabezal, una máquina capaz
+
+66
+00:02:38,630 --> 00:02:40,160
+de manipular las bolitas que se encuentren
+
+67
+00:02:40,160 --> 00:02:41,900
+en la celda bajo su posición
+
+68
+00:02:41,900 --> 00:02:44,770
+ya sea agregando bolitas o sacándolas.
+
+69
+00:02:44,770 --> 00:02:48,290
+el cabezal solo manipula bolitas en la
+
+70
+00:02:48,290 --> 00:02:50,960
+celda actual, sin embargo, también es
+
+71
+00:02:50,960 --> 00:02:54,810
+capaz de moverse de una celda a otra.
+
+72
+00:02:54,810 --> 00:02:57,000
+Puede pensarse el cabezal como una
+
+73
+00:02:57,000 --> 00:02:58,830
+máquina similar a las garras mecánicas
+
+74
+00:02:58,830 --> 00:03:00,330
+que encontrarán en salas de videojuegos
+
+75
+00:03:00,330 --> 00:03:03,510
+o locales comerciales, sin embargo, aquí­
+
+76
+00:03:03,510 --> 00:03:05,370
+la posición del cabezal está siempre
+
+77
+00:03:05,370 --> 00:03:07,110
+bien definida y no hay azar involucrado.
+
+78
+00:03:07,110 --> 00:03:08,960
+
+
+79
+00:03:08,960 --> 00:03:11,660
+El cabezal es el encargado de ejecutar
+
+80
+00:03:11,660 --> 00:03:13,370
+las acciones que nosotros describimos en
+
+81
+00:03:13,370 --> 00:03:16,010
+un programa. También va a ser capaz de
+
+82
+00:03:16,010 --> 00:03:17,720
+brindar información y responder
+
+83
+00:03:17,720 --> 00:03:19,790
+preguntas como veremos más adelante
+
+84
+00:03:19,790 --> 00:03:21,510
+en otros vídeos.
+
+85
+00:03:21,510 --> 00:03:23,819
+Durante las actividades que realizaron
+
+86
+00:03:23,819 --> 00:03:26,220
+previo a este video, debieron arrastrar y
+
+87
+00:03:26,220 --> 00:03:28,560
+soltar bloques de color azul dentro de
+
+88
+00:03:28,560 --> 00:03:30,090
+un agujero presente, en un bloque de
+
+89
+00:03:30,090 --> 00:03:32,760
+color violeta, en lo que llamamos:
+
+90
+00:03:32,760 --> 00:03:35,180
+El cuerpo del programa.
+
+91
+00:03:35,180 --> 00:03:37,790
+Por su forma, estos bloques azules
+
+92
+00:03:37,790 --> 00:03:40,280
+enganchaban perfecto en ese lugar
+
+93
+00:03:40,280 --> 00:03:43,689
+y además, enganchaban unos debajo del otro.
+
+94
+00:03:43,689 --> 00:03:46,310
+Adicionalmente, unos bloques de color
+
+95
+00:03:46,310 --> 00:03:48,379
+verde debí­an ser colocados en los
+
+96
+00:03:48,379 --> 00:03:49,849
+agujeros que presentaban los bloques
+
+97
+00:03:49,849 --> 00:03:52,790
+azules. Nuevamente, por la forma de los
+
+98
+00:03:52,790 --> 00:03:55,040
+bloques verdes, este era el único lugar
+
+99
+00:03:55,040 --> 00:03:58,159
+posible para colocarlos. Diversas
+
+100
+00:03:58,159 --> 00:04:00,500
+combinaciones de estos bloques lograban
+
+101
+00:04:00,500 --> 00:04:02,359
+distintas acciones por parte del cabezal,
+
+102
+00:04:02,359 --> 00:04:05,700
+cuando presionabamos el botón de ejecutar,
+
+103
+00:04:05,700 --> 00:04:08,520
+Esta diferenciación en colores y formas
+
+104
+00:04:08,520 --> 00:04:11,340
+no es casual. Los bloques de color azul
+
+105
+00:04:11,340 --> 00:04:14,740
+son lo que denominamos comandos.
+
+106
+00:04:14,740 --> 00:04:17,410
+Los comandos son descripciones de
+
+107
+00:04:17,410 --> 00:04:20,230
+acciones, es decir, acciones que el
+
+108
+00:04:20,230 --> 00:04:22,540
+cabezal podrá realizar cuando se ejecuta
+
+109
+00:04:22,540 --> 00:04:24,639
+finalmente el programa.
+
+110
+00:04:24,639 --> 00:04:27,249
+Por su lado, los bloques de color verde
+
+111
+00:04:27,249 --> 00:04:31,160
+son lo que denominamos expresiones.
+
+112
+00:04:31,160 --> 00:04:34,160
+Las expresiones son descripciones de
+
+113
+00:04:34,160 --> 00:04:37,370
+información, y de momento nos sirven para
+
+114
+00:04:37,370 --> 00:04:39,170
+darle información adicional al cabezal
+
+115
+00:04:39,170 --> 00:04:41,470
+sobre el comando que queremos realizar.
+
+116
+00:04:41,470 --> 00:04:44,450
+Decimos que son el argumento de un comando
+
+117
+00:04:44,450 --> 00:04:46,030
+
+
+118
+00:04:46,030 --> 00:04:48,900
+De esto surge algo realmente interesante:
+
+119
+00:04:48,900 --> 00:04:52,150
+los programas que nosotros realizamos, no
+
+120
+00:04:52,150 --> 00:04:54,490
+son más que meras descripciones de cómo
+
+121
+00:04:54,490 --> 00:04:56,680
+solucionar un problema.
+
+122
+00:04:56,680 --> 00:05:00,009
+Así­ surge nuestra primera definición,
+
+123
+00:05:00,009 --> 00:05:03,789
+la definición de programa. Un programa es un
+
+124
+00:05:03,789 --> 00:05:05,380
+texto que describe la solución a un problema computacional
+
+125
+00:05:05,380 --> 00:05:07,930
+y que debe poder ser
+
+126
+00:05:07,930 --> 00:05:10,680
+ejecutado por una máquina, 
+
+127
+00:05:10,680 --> 00:05:14,070
+Es decir, es un texto que describe; 
+
+128
+00:05:14,070 --> 00:05:16,830
+la descripción está dada precisamente por
+
+129
+00:05:16,830 --> 00:05:18,690
+los comandos y las expresiones que
+
+130
+00:05:18,690 --> 00:05:21,289
+usamos en nuestro programa.
+
+131
+00:05:21,289 --> 00:05:24,139
+A su vez debe poder ser ejecutado por
+
+132
+00:05:24,139 --> 00:05:27,379
+una máquina. Esto es sumamente importante,
+
+133
+00:05:27,379 --> 00:05:29,689
+es la máquina quien soluciona el problema
+
+134
+00:05:29,689 --> 00:05:32,149
+cuando le pedimos efectivamente
+
+135
+00:05:32,149 --> 00:05:33,860
+que ejecute el programa que escribimos.
+
+136
+00:05:33,860 --> 00:05:36,580
+El programador solamente se limita
+
+137
+00:05:36,580 --> 00:05:39,760
+a describir la solución.
+
+138
+00:05:39,760 --> 00:05:42,220
+Un detalle no menor es que la solución
+
+139
+00:05:42,220 --> 00:05:45,220
+se realiza a priori, es decir, antes de
+
+140
+00:05:45,220 --> 00:05:48,010
+solucionar el problema. El programador no
+
+141
+00:05:48,010 --> 00:05:50,230
+va modificando en vivo el programa y la
+
+142
+00:05:50,230 --> 00:05:52,440
+máquina no actúa de forma interactiva.
+
+143
+00:05:52,440 --> 00:05:55,720
+Por esto, la solución debe ser metódica y
+
+144
+00:05:55,720 --> 00:05:58,750
+reproducible. Dicho de otra forma,
+
+145
+00:05:58,750 --> 00:06:00,970
+el programa que escribimos debe poder ser
+
+146
+00:06:00,970 --> 00:06:04,330
+ejecutado en diferido tantas veces como
+
+147
+00:06:04,330 --> 00:06:07,390
+se desee, siempre de la misma forma,
+
+148
+00:06:07,390 --> 00:06:10,350
+por cualquier máquina que sepa entenderlo.
+
+149
+00:06:10,350 --> 00:06:12,420
+Es normal que escuchemos a un
+
+150
+00:06:12,420 --> 00:06:14,940
+programador decir cosas como: el programa
+
+151
+00:06:14,940 --> 00:06:18,570
+hace esto o mi programa hace esto otro,
+
+152
+00:06:18,570 --> 00:06:21,000
+pero en realidad, no es el programa el
+
+153
+00:06:21,000 --> 00:06:23,600
+que hace, es la máquina la que lo hace.
+
+154
+00:06:23,600 --> 00:06:25,740
+Esto es un pequeño abuso del lenguaje
+
+155
+00:06:25,740 --> 00:06:27,930
+que suele escaparse a quienes esá¡n
+
+156
+00:06:27,930 --> 00:06:30,030
+acostumbrados a programar y comprenden
+
+157
+00:06:30,030 --> 00:06:32,310
+el concepto de subyacente, pero debe
+
+158
+00:06:32,310 --> 00:06:34,920
+quedar absolutamente claro que el
+
+159
+00:06:34,920 --> 00:06:38,240
+programa nunca hace nada, simplemente
+
+160
+00:06:38,240 --> 00:06:41,230
+describe cómo hacerlo.
+
+161
+00:06:41,230 --> 00:06:43,510
+pero... ¿a qué­ nos referimos cuando hablamos
+
+162
+00:06:43,510 --> 00:06:46,630
+de problema computacional?
+
+163
+00:06:46,630 --> 00:06:49,210
+Bien, un problema computacional es aquel
+
+164
+00:06:49,210 --> 00:06:50,530
+que puede ser resuelto por una
+
+165
+00:06:50,530 --> 00:06:53,410
+computadora y por tanto, debe poder ser
+
+166
+00:06:53,410 --> 00:06:56,410
+expresado o bien como una transformación
+
+167
+00:06:56,410 --> 00:06:59,200
+de estado, o bien como una transformación
+
+168
+00:06:59,200 --> 00:07:01,480
+de información.
+
+169
+00:07:01,480 --> 00:07:04,270
+Es decir, todo problema computacional
+
+170
+00:07:04,270 --> 00:07:08,160
+consiste en: partir de un estado inicial,
+
+171
+00:07:08,160 --> 00:07:10,930
+transformarlo y arribar a un estado
+
+172
+00:07:10,930 --> 00:07:14,110
+final. O bien, partir de una información
+
+173
+00:07:14,110 --> 00:07:17,410
+inicial, transformarla, y arribar a una
+
+174
+00:07:17,410 --> 00:07:20,290
+información final. Sobre estos últimos,
+
+175
+00:07:20,290 --> 00:07:23,210
+charlaremos en futuros videos.
+
+176
+00:07:23,210 --> 00:07:25,910
+En cuanto al estado, en Gobstones, se
+
+177
+00:07:25,910 --> 00:07:27,380
+encuentra representado mediante el
+
+178
+00:07:27,380 --> 00:07:29,180
+tablero y la información que en él se dispone,
+
+179
+00:07:29,180 --> 00:07:31,910
+la cual incluye la posición del cabezal,
+
+180
+00:07:31,910 --> 00:07:35,330
+y de las bolitas; es decir qué
+
+181
+00:07:35,330 --> 00:07:37,699
+cantidad de bolitas de cada color
+
+182
+00:07:37,699 --> 00:07:39,449
+hay en cada celda.
+
+183
+00:07:39,449 --> 00:07:42,029
+Así­ las transformaciones de estado en
+
+184
+00:07:42,029 --> 00:07:43,979
+Gobstones se encuentran representadas
+
+185
+00:07:43,979 --> 00:07:46,379
+mediante transformaciones de tablero. De hecho,
+
+186
+00:07:46,379 --> 00:07:48,360
+en nuestros programas hicieron
+
+187
+00:07:48,360 --> 00:07:49,919
+precisamente este tipo de
+
+188
+00:07:49,919 --> 00:07:52,199
+transformaciones partiendo de un tablero
+
+189
+00:07:52,199 --> 00:07:55,139
+inicial, es decir, el primer estado del
+
+190
+00:07:55,139 --> 00:07:58,080
+programa, transformándolo, y arribando a
+
+191
+00:07:58,080 --> 00:08:01,379
+un tablero final. Es decir, el estado en
+
+192
+00:08:01,379 --> 00:08:03,300
+el que se termina al finalizar la
+
+193
+00:08:03,300 --> 00:08:05,190
+ejecución del programa.
+
+194
+00:08:05,190 --> 00:08:08,070
+De momento entonces, los problemas que
+
+195
+00:08:08,070 --> 00:08:10,440
+podemos resolver en Gobstones, están dados
+
+196
+00:08:10,440 --> 00:08:13,630
+como transformaciones de tablero.
+
+197
+00:08:13,630 --> 00:08:15,970
+Para arribar al estado final, puede ser
+
+198
+00:08:15,970 --> 00:08:17,800
+necesario pasar por una serie de estados
+
+199
+00:08:17,800 --> 00:08:20,200
+intermedios que no son relevantes para
+
+200
+00:08:20,200 --> 00:08:22,169
+la finalidad del programa.
+
+201
+00:08:22,169 --> 00:08:24,900
+Para el ejemplo que vemos en pantalla, el
+
+202
+00:08:24,900 --> 00:08:27,449
+programa parte en un estado inicial en
+
+203
+00:08:27,449 --> 00:08:29,129
+donde el cabezal se encuentra en la
+
+204
+00:08:29,129 --> 00:08:32,130
+celda 1,1 y hay varias bolitas dispersas
+
+205
+00:08:32,130 --> 00:08:35,309
+por el tablero. Atraviesa luego, un
+
+206
+00:08:35,309 --> 00:08:37,409
+segundo estado en donde en la celda
+
+207
+00:08:37,409 --> 00:08:39,750
+actual, ahora hay una única bolita de
+
+208
+00:08:39,750 --> 00:08:43,260
+color rojo. Pasa luego a un tercer estado
+
+209
+00:08:43,260 --> 00:08:45,630
+en donde hay una bolita de color rojo y
+
+210
+00:08:45,630 --> 00:08:48,920
+además, una de color azul en la celda 1,1
+
+211
+00:08:48,920 --> 00:08:52,170
+Atraviesa otro estado, ahora con una
+
+212
+00:08:52,170 --> 00:08:54,959
+bolita de color azul una roja y una de
+
+213
+00:08:54,959 --> 00:08:57,990
+color verde en la celda 1,1. Y finalmente,
+
+214
+00:08:57,990 --> 00:09:00,750
+arriba al estado final en donde la celda
+
+215
+00:09:00,750 --> 00:09:02,880
+actual ahora tiene una bolita de cada color.
+
+216
+00:09:02,880 --> 00:09:04,360
+
+
+217
+00:09:04,360 --> 00:09:06,760
+El problema que se busca resolver con el
+
+218
+00:09:06,760 --> 00:09:09,880
+código anterior, es entonces, colocar una
+
+219
+00:09:09,880 --> 00:09:12,029
+bolita de cada color en la celda actual,
+
+220
+00:09:12,029 --> 00:09:15,670
+sea cual fuere la celda actual. Note
+
+221
+00:09:15,670 --> 00:09:17,560
+como no es necesario mencionar cuál es
+
+222
+00:09:17,560 --> 00:09:19,660
+el tablero inicial para expresar el
+
+223
+00:09:19,660 --> 00:09:22,350
+problema, pues aplica a cualquier tablero,
+
+224
+00:09:22,350 --> 00:09:25,180
+es decir, el problema se encuentra
+
+225
+00:09:25,180 --> 00:09:27,220
+expresado como una transformación de
+
+226
+00:09:27,220 --> 00:09:30,220
+tablero. Dicha transformación siempre
+
+227
+00:09:30,220 --> 00:09:32,829
+puede realizarse pues siempre habrá un
+
+228
+00:09:32,829 --> 00:09:35,380
+tablero, el tablero debe tener al menos
+
+229
+00:09:35,380 --> 00:09:38,260
+una celda y el cabezal siempre estará
+
+230
+00:09:38,260 --> 00:09:40,240
+posicionado sobre alguna celda del
+
+231
+00:09:40,240 --> 00:09:43,390
+tablero, es decir, la celda actual siempre
+
+232
+00:09:43,390 --> 00:09:47,470
+existe. Además, a toda celda siempre se le
+
+233
+00:09:47,470 --> 00:09:49,750
+puede agregar una bolita más de
+
+234
+00:09:49,750 --> 00:09:51,889
+cualquiera de los colores.
+
+235
+00:09:51,889 --> 00:09:53,869
+Note como para el problema anterior
+
+236
+00:09:53,869 --> 00:09:56,540
+podríamos haber elegido cualquiera de
+
+237
+00:09:56,540 --> 00:09:59,239
+estas soluciones, es decir, cualquiera de
+
+238
+00:09:59,239 --> 00:10:02,089
+estos programas. Incluso soluciones como
+
+239
+00:10:02,089 --> 00:10:04,819
+la de la derecha parecen poco intuitivas,
+
+240
+00:10:04,819 --> 00:10:07,489
+a uno no se le ocurriría hacer esa solución,
+
+241
+00:10:07,489 --> 00:10:08,029
+
+
+242
+00:10:08,029 --> 00:10:10,970
+Sin embargo, soluciona exactamente el
+
+243
+00:10:10,970 --> 00:10:13,489
+mismo problema que los otros: poner una
+
+244
+00:10:13,489 --> 00:10:15,829
+bolita de cada color en las celdas donde
+
+245
+00:10:15,829 --> 00:10:17,800
+está parado el cabezal.
+
+246
+00:10:17,800 --> 00:10:20,279
+Decimos entonces, que estos programas son
+
+247
+00:10:20,279 --> 00:10:23,410
+equivalentes entre sí.­ Es decir, todos
+
+248
+00:10:23,410 --> 00:10:25,420
+describen soluciones para el mismo
+
+249
+00:10:25,420 --> 00:10:28,600
+problema. En general, hay infinitos
+
+250
+00:10:28,600 --> 00:10:30,640
+programas equivalentes para un problema
+
+251
+00:10:30,640 --> 00:10:32,819
+determinad.
+
+252
+00:10:32,819 --> 00:10:35,100
+Hasta ahora, nuestros programas se han
+
+253
+00:10:35,100 --> 00:10:37,139
+compuesto simplemente de bloques que,
+
+254
+00:10:37,139 --> 00:10:39,839
+como ya mencionamos, son descripciones ya
+
+255
+00:10:39,839 --> 00:10:42,029
+sea de acciones en la forma de comandos,
+
+256
+00:10:42,029 --> 00:10:44,220
+o de información en la forma de expresiones
+
+257
+00:10:44,220 --> 00:10:47,309
+Sin embargo, también dijimos
+
+258
+00:10:47,309 --> 00:10:49,470
+en nuestra definición del programa, que
+
+259
+00:10:49,470 --> 00:10:52,139
+un programa es un texto que describe la
+
+260
+00:10:52,139 --> 00:10:54,600
+solución a un problema. Pero si es un
+
+261
+00:10:54,600 --> 00:10:57,950
+texto, ¿donde entran nuestros bloques?
+
+262
+00:10:57,950 --> 00:11:01,040
+Pues bien ,los bloques son simplemente
+
+263
+00:11:01,040 --> 00:11:03,680
+una capa visual sobre el texto de un
+
+264
+00:11:03,680 --> 00:11:06,800
+programa. Gobstones hace internamente
+
+265
+00:11:06,800 --> 00:11:08,720
+la transformación de estos bloques a
+
+266
+00:11:08,720 --> 00:11:11,900
+texto sin que nosotros nos enteremos.
+
+267
+00:11:11,900 --> 00:11:13,310
+Los bloques resultan ideales para
+
+268
+00:11:13,310 --> 00:11:15,380
+principiantes pues evitan pensar en un
+
+269
+00:11:15,380 --> 00:11:17,060
+montón de problemáticas que vienen
+
+270
+00:11:17,060 --> 00:11:18,980
+asociadas al momento de programar el
+
+271
+00:11:18,980 --> 00:11:21,140
+texto. Sin embargo, para programar
+
+272
+00:11:21,140 --> 00:11:22,880
+seriamente debemos aprender a programar
+
+273
+00:11:22,880 --> 00:11:25,190
+el texto, algo que veremos en el próximo video.
+
+274
+00:11:25,190 --> 00:11:27,020
+
+
+275
+00:11:27,020 --> 00:11:29,690
+Nos veremos entonces, el próximo vi­deo.
+
+276
+00:11:29,690 --> 00:11:32,920
+Hasta la próxima.
+
