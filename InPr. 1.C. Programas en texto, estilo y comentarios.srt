@@ -1,0 +1,1212 @@
+1
+00:00:00,110 --> 00:00:03,289
+Hola, bienvenidos nuevamente 
+
+2
+00:00:03,289 --> 00:00:05,600
+a otro nuevo vídeo del curso de 
+
+3
+00:00:05,600 --> 00:00:08,690
+Introducción a la Programación. En esta oportunidad, 
+
+4
+00:00:08,690 --> 00:00:10,549
+vamos a ver cómo realizar programas en texto.
+
+5
+00:00:10,549 --> 00:00:13,730
+Además, vamos a charlar sobre 
+
+6
+00:00:13,730 --> 00:00:15,769
+sintaxis y reglas de estilo.
+
+7
+00:00:15,769 --> 00:00:17,689
+Como ya mencionamos en el vídeo anterior
+
+8
+00:00:17,689 --> 00:00:21,170
+un programa es un texto que describe
+
+9
+00:00:21,170 --> 00:00:23,270
+ la solución a un problema computacional 
+
+10
+00:00:23,270 --> 00:00:24,980
+y que debe poder ser ejecutado por una máquina
+
+11
+00:00:24,980 --> 00:00:26,270
+
+
+12
+00:00:26,270 --> 00:00:28,880
+Los bloques resultan entonces de mucha ayuda
+
+13
+00:00:28,880 --> 00:00:30,560
+para quienes recién se inician
+
+14
+00:00:30,560 --> 00:00:32,900
+en el mundo de la programación. Sin embargo,
+
+15
+00:00:32,900 --> 00:00:35,390
+son meras construcciones visuales
+
+16
+00:00:35,390 --> 00:00:38,900
+que nos aíslan del texto subyacente, 
+
+17
+00:00:38,900 --> 00:00:40,850
+así para programar de forma profesional
+
+18
+00:00:40,850 --> 00:00:42,650
+es necesario aprender a programar en texto,
+
+19
+00:00:42,650 --> 00:00:46,700
+algo que comenzaremos a aprender en este video
+
+20
+00:00:45,260 --> 00:00:46,700
+
+
+21
+00:00:46,700 --> 00:00:49,220
+Un pequeño e interesante truco es que
+
+22
+00:00:49,220 --> 00:00:50,540
+cualquier programa que haya sido
+
+23
+00:00:50,540 --> 00:00:52,310
+realizado con bloques, puede ser transformado
+
+24
+00:00:52,310 --> 00:00:54,440
+desde Gobstones Junior en
+
+25
+00:00:54,440 --> 00:00:56,960
+un programa realizado en texto. Para ello,
+
+26
+00:00:56,960 --> 00:00:59,300
+debemos ir al menú superior
+
+27
+00:00:59,300 --> 00:01:01,670
+y seleccionar la opción de código generado;
+
+28
+00:01:01,670 --> 00:01:04,729
+allí se abrirá una ventana que contendrá
+
+29
+00:01:04,729 --> 00:01:06,740
+la misma versión de nuestro programa
+
+30
+00:01:06,740 --> 00:01:10,080
+ahora en modo texto.
+
+31
+00:01:10,080 --> 00:01:12,000
+Sin embargo, deberemos aprender a
+
+32
+00:01:12,000 --> 00:01:14,700
+programar completamente en texto.
+
+33
+00:01:14,700 --> 00:01:16,740
+Para ello deberemos cambiar de herramienta:
+
+34
+00:01:16,740 --> 00:01:19,410
+dejaremos de utilizar Gobstones Junior
+
+35
+00:01:19,410 --> 00:01:23,560
+y pasaremos a utilizar Gobstones Senior.
+
+36
+00:01:23,560 --> 00:01:25,720
+Para describir nuestras soluciones, vamos
+
+37
+00:01:25,720 --> 00:01:27,220
+a requerir una herramienta para poder
+
+38
+00:01:27,220 --> 00:01:30,369
+comunicarlas: un lenguaje. Estamos
+
+39
+00:01:30,369 --> 00:01:32,259
+acostumbrados a utilizar lenguajes en la
+
+40
+00:01:32,259 --> 00:01:34,780
+vida cotidiana: el español o el inglés
+
+41
+00:01:34,780 --> 00:01:37,230
+son ejemplos de lenguajes.
+
+42
+00:01:37,230 --> 00:01:39,960
+Sin embargo, los idiomas tradicionales no
+
+43
+00:01:39,960 --> 00:01:41,520
+nos servirán para comunicarnos con una
+
+44
+00:01:41,520 --> 00:01:43,800
+computadora. Tienen reglas demasiado
+
+45
+00:01:43,800 --> 00:01:45,810
+complejas y están llenas de ambigüedades
+
+46
+00:01:45,810 --> 00:01:48,060
+que el interlocutor debe que es ambiguar
+
+47
+00:01:48,060 --> 00:01:50,760
+utilizando el contexto lingüístico.
+
+48
+00:01:50,760 --> 00:01:53,580
+Así, los lenguajes de programación, son
+
+49
+00:01:53,580 --> 00:01:54,990
+herramientas que solucionan estas
+
+50
+00:01:54,990 --> 00:01:56,550
+problemáticas, permitiéndonos
+
+51
+00:01:56,550 --> 00:01:58,710
+comunicarnos entre humanos y
+
+52
+00:01:58,710 --> 00:02:00,530
+computadoras.
+
+53
+00:02:00,530 --> 00:02:02,320
+Hay cientos de lenguajes de programación:
+
+54
+00:02:02,320 --> 00:02:06,890
+C++, visual basic, php, javascript, java,
+
+55
+00:02:06,890 --> 00:02:09,679
+python. Cada uno tiene sus propias
+
+56
+00:02:09,679 --> 00:02:11,990
+particularidades, es decir, intenta
+
+57
+00:02:11,990 --> 00:02:14,810
+resolver algunos detalles puntuales que
+
+58
+00:02:14,810 --> 00:02:17,959
+otros no puedan resolver Gobstones es
+
+59
+00:02:17,959 --> 00:02:19,160
+también uno de estos lenguajes de
+
+60
+00:02:19,160 --> 00:02:21,770
+programación diseñado especialmente para
+
+61
+00:02:21,770 --> 00:02:24,380
+la didáctica de la programación inicial
+
+62
+00:02:24,380 --> 00:02:26,990
+El lenguaje determina la forma de
+
+63
+00:02:26,990 --> 00:02:29,720
+describir nuestra solución, es decir, la
+
+64
+00:02:29,720 --> 00:02:32,280
+forma que tendrá nuestro código.
+
+65
+00:02:32,280 --> 00:02:34,470
+Cada lenguaje va a determinar qué
+
+66
+00:02:34,470 --> 00:02:37,170
+símbolos son válidos y qué reglas
+
+67
+00:02:37,170 --> 00:02:39,180
+debemos utilizar para disponer esos
+
+68
+00:02:39,180 --> 00:02:41,220
+símbolos de forma correcta; lo que
+
+69
+00:02:41,220 --> 00:02:44,490
+llamamos: sintaxis. Es decir, cada lenguaje
+
+70
+00:02:44,490 --> 00:02:46,950
+tiene su propia sintaxis.
+
+71
+00:02:46,950 --> 00:02:49,830
+Así, la sintaxis del lenguaje no es
+
+72
+00:02:49,830 --> 00:02:52,709
+relevante sino la semántica detrás de la
+
+73
+00:02:52,709 --> 00:02:55,290
+sintaxis, es decir, qué ideas estamos
+
+74
+00:02:55,290 --> 00:02:57,480
+intentando transmitir cuando escribimos
+
+75
+00:02:57,480 --> 00:03:00,239
+determinada porción de código. Las ideas
+
+76
+00:03:00,239 --> 00:03:02,610
+subyacentes suelen ser similares en
+
+77
+00:03:02,610 --> 00:03:05,140
+prácticamente todos los lenguajes.
+
+78
+00:03:05,140 --> 00:03:07,060
+Antes de ver cómo pasar nuestro código
+
+79
+00:03:07,060 --> 00:03:10,060
+hecho en bloques, a código hecho en texto,
+
+80
+00:03:10,060 --> 00:03:12,130
+hagamos un breve repaso sobre los
+
+81
+00:03:12,130 --> 00:03:13,720
+diversos elementos que hemos visto hasta
+
+82
+00:03:13,720 --> 00:03:16,700
+ahora. en el lenguaje de Gobstones:
+
+83
+00:03:16,700 --> 00:03:18,980
+Todo programa se define mediante un
+
+84
+00:03:18,980 --> 00:03:20,900
+bloque de color violeta al que llamamos
+
+85
+00:03:20,900 --> 00:03:23,540
+precisamente: el programa.
+
+86
+00:03:23,540 --> 00:03:26,510
+Ese bloque, tiene un agujero que llamamos:
+
+87
+00:03:26,510 --> 00:03:29,090
+el cuerpo del programa, y en donde
+
+88
+00:03:29,090 --> 00:03:31,189
+deberemos disponer los distintos bloques
+
+89
+00:03:31,189 --> 00:03:34,159
+de color azul. Los bloques de color azul
+
+90
+00:03:34,159 --> 00:03:37,700
+son lo que denominamos: Comandos.
+
+91
+00:03:37,700 --> 00:03:38,569
+Vimos que en Gobstones
+
+92
+00:03:38,569 --> 00:03:41,150
+existen cuatro comandos primitivos,
+
+93
+00:03:41,150 --> 00:03:43,670
+es decir, comandos que ya vienen incluidos
+
+94
+00:03:43,670 --> 00:03:46,849
+en el lenguaje de programación. Poner,
+
+95
+00:03:46,849 --> 00:03:49,549
+de un color, coloca una bolita de ese
+
+96
+00:03:49,549 --> 00:03:52,920
+color en la celda actual. Sacar:
+
+97
+00:03:52,920 --> 00:03:56,520
+Sacar: quita una bolita del color dado. 
+
+98
+00:03:56,520 --> 00:03:58,680
+Mover: mueve el cabezal una celda en la
+
+99
+00:03:58,680 --> 00:04:02,099
+dirección dada y Ir al borde:  mueve
+
+100
+00:04:02,099 --> 00:04:04,140
+el cabezal hasta la celda en el borde de
+
+101
+00:04:04,140 --> 00:04:06,750
+la dirección dada. Vimos que esos bloques
+
+102
+00:04:06,750 --> 00:04:09,750
+azules tenían un agujero que debía ser
+
+103
+00:04:09,750 --> 00:04:11,430
+completado con un bloque de color verde.
+
+104
+00:04:11,430 --> 00:04:15,209
+Una expresión: decimos entonces que una
+
+105
+00:04:15,209 --> 00:04:18,298
+expresión actúa de argumento 
+
+106
+00:04:18,298 --> 00:04:19,970
+de un comando.
+
+107
+00:04:19,970 --> 00:04:21,680
+Las expresiones que hemos visto hasta ahora,
+
+108
+00:04:21,680 --> 00:04:23,900
+son lo que llamamos: expresiones literales.
+
+109
+00:04:23,900 --> 00:04:26,690
+Se encuentran agrupadas en dos
+
+110
+00:04:26,690 --> 00:04:31,070
+grandes categorías: azul, negro, rojo y verde,
+
+111
+00:04:31,070 --> 00:04:34,220
+en lo que llamamos colores y
+
+112
+00:04:34,220 --> 00:04:37,900
+norte,sur,este,oeste en lo que llamamos
+
+113
+00:04:37,900 --> 00:04:39,880
+direcciones.
+
+114
+00:04:39,880 --> 00:04:43,090
+Algo que no hemos formalizado aún, es que esos
+
+115
+00:04:43,090 --> 00:04:44,860
+bloques de color azul a los que llamamos
+
+116
+00:04:44,860 --> 00:04:47,500
+comandos, se deben disponer uno debajo
+
+117
+00:04:47,500 --> 00:04:49,480
+del otro en lo que llamamos una
+
+118
+00:04:49,480 --> 00:04:53,050
+secuencia. Así la secuenciación, es la
+
+119
+00:04:53,050 --> 00:04:54,520
+primera herramienta que proveen la
+
+120
+00:04:54,520 --> 00:04:55,800
+mayoría de los lenguajes de programación
+
+121
+00:04:55,800 --> 00:04:58,240
+para generar soluciones a nuestros
+
+122
+00:04:58,240 --> 00:04:59,630
+problemas
+
+123
+00:04:59,630 --> 00:05:02,060
+Cuando programamos con bloques, la forma
+
+124
+00:05:02,060 --> 00:05:04,070
+de los bloques nos indica cómo deben
+
+125
+00:05:04,070 --> 00:05:06,950
+engancharse. Cuando trabajamos con modo
+
+126
+00:05:06,950 --> 00:05:10,620
+texto, no tenemos formas para guiarnos.
+
+127
+00:05:10,620 --> 00:05:13,500
+Así, serán las reglas de sintaxis las que
+
+128
+00:05:13,500 --> 00:05:15,780
+nos indiquen qué cosas deben ir dentro
+
+129
+00:05:15,780 --> 00:05:17,520
+de otras y de qué forma debemos
+
+130
+00:05:17,520 --> 00:05:19,160
+escribirlas.
+
+131
+00:05:19,160 --> 00:05:21,980
+En texto, el bloque violeta del programa
+
+132
+00:05:21,980 --> 00:05:24,350
+ha sido reemplazado por una palabra
+
+133
+00:05:24,350 --> 00:05:26,960
+clave. Una palabra clave, le da un
+
+134
+00:05:26,960 --> 00:05:28,850
+indicativo a la máquina de que en ese
+
+135
+00:05:28,850 --> 00:05:31,700
+punto debe entender algo especial.
+
+136
+00:05:31,700 --> 00:05:34,790
+En particular, la palabra clave program, me
+
+137
+00:05:34,790 --> 00:05:36,230
+indica que ese es el punto donde
+
+138
+00:05:36,230 --> 00:05:38,280
+comienza el programa.
+
+139
+00:05:38,280 --> 00:05:40,710
+El cuerpo del programa, se encuentra
+
+140
+00:05:40,710 --> 00:05:43,200
+ahora delimitado por llaves. La llave que
+
+141
+00:05:43,200 --> 00:05:45,630
+abre, da inicio al cuerpo y la llave que
+
+142
+00:05:45,630 --> 00:05:48,230
+cierra lo finaliza
+
+143
+00:05:48,230 --> 00:05:50,510
+Los comandos se disponen entonces en
+
+144
+00:05:50,510 --> 00:05:52,610
+secuencia, dentro de las llaves que
+
+145
+00:05:52,610 --> 00:05:54,890
+delimitan el cuerpo del programa, uno
+
+146
+00:05:54,890 --> 00:05:58,040
+debajo del otro. Los argumentos de los
+
+147
+00:05:58,040 --> 00:06:00,020
+comandos, se colocan entonces entre
+
+148
+00:06:00,020 --> 00:06:02,120
+paréntesis.
+
+149
+00:06:02,120 --> 00:06:04,970
+Cabe destacar que las reglas de sintaxis
+
+150
+00:06:04,970 --> 00:06:06,530
+de los lenguajes de programación en
+
+151
+00:06:06,530 --> 00:06:09,710
+texto, suelen ser muy estrictas y Gobstones
+
+152
+00:06:09,710 --> 00:06:12,889
+no es la excepción; así la palabra clave
+
+153
+00:06:12,889 --> 00:06:14,780
+program, se escribe completamente en
+
+154
+00:06:14,780 --> 00:06:17,690
+minúscula. No vale PROGRAM en mayúscula
+
+155
+00:06:17,690 --> 00:06:22,460
+o Program con la P mayúscula. Lo mismo
+
+156
+00:06:22,460 --> 00:06:24,350
+vale para los comandos que comienzan
+
+157
+00:06:24,350 --> 00:06:26,180
+siempre con mayúsculas y las expresiones
+
+158
+00:06:26,180 --> 00:06:29,990
+literales que hacen lo propio. Así Azul
+
+159
+00:06:29,990 --> 00:06:32,960
+se escribe con la A mayúscula, ni todo en
+
+160
+00:06:32,960 --> 00:06:35,660
+minúscula, ni todo en mayúscula, ni ninguna
+
+161
+00:06:35,660 --> 00:06:37,840
+otra variación posible.
+
+162
+00:06:37,840 --> 00:06:39,490
+Si escribimos mal alguna de las palabras,
+
+163
+00:06:39,490 --> 00:06:42,220
+la máquina no será capaz de entendernos
+
+164
+00:06:42,220 --> 00:06:45,850
+y aparecerá un mensaje de error. A veces,
+
+165
+00:06:45,850 --> 00:06:48,040
+estos mensajes son sencillos de
+
+166
+00:06:48,040 --> 00:06:50,860
+descifrar; otras veces, suelen ser
+
+167
+00:06:50,860 --> 00:06:52,720
+bastante complejos para quien no ha
+
+168
+00:06:52,720 --> 00:06:54,639
+visto nunca el error.
+
+169
+00:06:54,639 --> 00:06:56,159
+Puede que en un mensaje de error
+
+170
+00:06:56,159 --> 00:06:58,509
+aparezcan palabras que corresponden a
+
+171
+00:06:58,509 --> 00:07:00,849
+conceptos o herramientas que veremos más
+
+172
+00:07:00,849 --> 00:07:03,400
+adelante, así se irán volviendo más
+
+173
+00:07:03,400 --> 00:07:06,340
+claros a medida que avancemos. Un detalle
+
+174
+00:07:06,340 --> 00:07:07,810
+adicional que vale la pena destacar,
+
+175
+00:07:07,810 --> 00:07:10,029
+es que cuando trabajamos con bloques,
+
+176
+00:07:10,029 --> 00:07:12,460
+podríamos dejar algunos bloques fuera
+
+177
+00:07:12,460 --> 00:07:15,219
+del cuerpo del programa esto hacía que
+
+178
+00:07:15,219 --> 00:07:18,520
+el bloque aparezca gris desactivado. 
+
+179
+00:07:18,520 --> 00:07:20,349
+En modo texto, sin embargo, no podemos
+
+180
+00:07:20,349 --> 00:07:22,569
+escribir palabras fuera del cuerpo del
+
+181
+00:07:22,569 --> 00:07:24,520
+programa.
+
+182
+00:07:24,520 --> 00:07:27,009
+Además al no tener la forma de los
+
+183
+00:07:27,009 --> 00:07:29,080
+bloques para guiarnos, debemos recordar
+
+184
+00:07:29,080 --> 00:07:31,720
+exactamente qué palabras escribir dentro
+
+185
+00:07:31,720 --> 00:07:34,569
+de que otras; por ejemplo: no puede
+
+186
+00:07:34,569 --> 00:07:37,629
+aparecer un comando dentro de otro, o una
+
+187
+00:07:37,629 --> 00:07:39,220
+expresión suelta en medio del código.
+
+188
+00:07:39,220 --> 00:07:42,069
+Esos son errores conceptuales sumamente
+
+189
+00:07:42,069 --> 00:07:43,930
+graves, que dan cuenta de que no hemos
+
+190
+00:07:43,930 --> 00:07:45,490
+entendido bien la diferenciación entre
+
+191
+00:07:45,490 --> 00:07:48,030
+comandos y expresiones.
+
+192
+00:07:48,030 --> 00:07:49,950
+Hay un pequeño detalle que hemos
+
+193
+00:07:49,950 --> 00:07:52,500
+ignorado hasta el momento: el comando
+
+194
+00:07:52,500 --> 00:07:55,950
+"Ir al borde". En texto, los comandos no
+
+195
+00:07:55,950 --> 00:07:57,750
+pueden contener espacios en su nombre,
+
+196
+00:07:57,750 --> 00:08:01,260
+por lo cual, IrAlBorde va todo junto,
+
+197
+00:08:01,260 --> 00:08:04,560
+pegado. Sin embargo, para hacer más fácil
+
+198
+00:08:04,560 --> 00:08:07,020
+su lectura, se utiliza una técnica
+
+199
+00:08:07,020 --> 00:08:10,530
+conocida como CamelCase. El CamelCase
+
+200
+00:08:10,530 --> 00:08:12,870
+consiste en poner en mayúscula la
+
+201
+00:08:12,870 --> 00:08:15,000
+primera letra de cada palabra, para de
+
+202
+00:08:15,000 --> 00:08:16,980
+esta forma, facilitar la lectura de
+
+203
+00:08:16,980 --> 00:08:17,460
+las mismas.
+
+204
+00:08:17,460 --> 00:08:19,920
+CamelCase no es una cuestión de
+
+205
+00:08:19,920 --> 00:08:22,770
+sintaxis, sino más bien, una convención de
+
+206
+00:08:22,770 --> 00:08:25,500
+estilo. Distintos lenguajes utilizan
+
+207
+00:08:25,500 --> 00:08:27,750
+distintas convenciones para poder hacer
+
+208
+00:08:27,750 --> 00:08:29,400
+más fácil la lectura de los comandos que
+
+209
+00:08:29,400 --> 00:08:30,870
+tienen más de una palabra en su nombre.
+
+210
+00:08:30,870 --> 00:08:33,750
+Por ejemplo otros lenguajes utilizan una
+
+211
+00:08:33,750 --> 00:08:36,510
+convención conocida como Snake Case, que
+
+212
+00:08:36,510 --> 00:08:38,970
+consiste en separar cada palabra con un
+
+213
+00:08:38,970 --> 00:08:40,240
+guión bajo.
+
+214
+00:08:40,240 --> 00:08:42,669
+En Gobstones es recomendable seguir la
+
+215
+00:08:42,669 --> 00:08:44,440
+convención de camel case, pues los
+
+216
+00:08:44,440 --> 00:08:46,810
+comandos primitivos, así como los nombres
+
+217
+00:08:46,810 --> 00:08:48,339
+de otros comandos que veremos más
+
+218
+00:08:48,339 --> 00:08:51,520
+adelante, utilizan esta convención. De esa
+
+219
+00:08:51,520 --> 00:08:55,240
+forma, el código quedará consistente.
+
+220
+00:08:55,240 --> 00:08:57,370
+Otro detalle de relevancia, es que Gobstones
+
+221
+00:08:57,370 --> 00:09:00,100
+ignora los espacios adicionales, es decir,
+
+222
+00:09:00,100 --> 00:09:03,070
+le da exactamente lo mismo si uno separa
+
+223
+00:09:03,070 --> 00:09:05,560
+dos palabras con un espacio, o lo separa
+
+224
+00:09:05,560 --> 00:09:08,410
+con una tabulación, o con un enter, o con
+
+225
+00:09:08,410 --> 00:09:11,800
+50 espacios o 10.000. Nótese como el
+
+226
+00:09:11,800 --> 00:09:14,080
+cabezal ejecuta cualquiera de estos
+
+227
+00:09:14,080 --> 00:09:15,670
+programas de forma completamente
+
+228
+00:09:15,670 --> 00:09:19,000
+indistinta, para el cabezal son exactamente
+
+229
+00:09:19,000 --> 00:09:21,640
+el mismo programa. Para las personas, que
+
+230
+00:09:21,640 --> 00:09:24,100
+leemos el programa, claramente son muy
+
+231
+00:09:24,100 --> 00:09:28,440
+distintos. Cierta forma en el código
+
+232
+00:09:28,440 --> 00:09:30,720
+ayuda a leerlo.
+
+233
+00:09:30,720 --> 00:09:33,149
+Por ello, una de las reglas de estilos
+
+234
+00:09:33,149 --> 00:09:34,709
+más importantes que deben seguir los
+
+235
+00:09:34,709 --> 00:09:36,889
+programadores, es lo que se conoce como
+
+236
+00:09:36,889 --> 00:09:40,860
+indentación. La indentación, de la palabra
+
+237
+00:09:40,860 --> 00:09:43,379
+inglesa indent, es lo que conocemos como
+
+238
+00:09:43,379 --> 00:09:47,649
+la sangría o el tabulado del código.
+
+239
+00:09:47,649 --> 00:09:49,899
+La indentación nos permite por ejemplo
+
+240
+00:09:49,899 --> 00:09:52,689
+determinar dónde comienza un cuerpo y
+
+241
+00:09:52,689 --> 00:09:55,629
+dónde termina; qué comandos están fuera y
+
+242
+00:09:55,629 --> 00:09:58,269
+cuáles están dentro, así como un montón
+
+243
+00:09:58,269 --> 00:10:00,490
+de otras pequeñas cuestiones. Nos permite
+
+244
+00:10:00,490 --> 00:10:03,369
+de alguna forma ver la estructura que
+
+245
+00:10:03,369 --> 00:10:05,220
+tiene el código.
+
+246
+00:10:05,220 --> 00:10:07,319
+No hay una única forma de indentar el
+
+247
+00:10:07,319 --> 00:10:10,259
+código, hay varios estilos, cada
+
+248
+00:10:10,259 --> 00:10:12,509
+programador tiene el suyo propio, o
+
+249
+00:10:12,509 --> 00:10:15,240
+copia el estilo de alguien más.
+
+250
+00:10:15,240 --> 00:10:16,980
+El criterio más importante a la hora de
+
+251
+00:10:16,980 --> 00:10:19,769
+indentar, es seguir siempre la misma
+
+252
+00:10:19,769 --> 00:10:22,079
+estructura, es decir, siempre el mismo
+
+253
+00:10:22,079 --> 00:10:24,480
+criterio independientemente de cuál sea
+
+254
+00:10:24,480 --> 00:10:27,180
+el estilo que estemos siguiendo. No vale
+
+255
+00:10:27,180 --> 00:10:30,149
+usar un estilo en la primer línea y usar
+
+256
+00:10:30,149 --> 00:10:32,610
+otro en la segunda. Si bien por ahora
+
+257
+00:10:32,610 --> 00:10:34,410
+nuestros programas son sencillos y
+
+258
+00:10:34,410 --> 00:10:36,170
+pareciera que la indentación es
+
+259
+00:10:36,170 --> 00:10:39,120
+innecesaria, veremos que a medida que
+
+260
+00:10:39,120 --> 00:10:40,769
+aprendemos nuevas herramientas,
+
+261
+00:10:40,769 --> 00:10:43,110
+la indentación se vuelve un concepto
+
+262
+00:10:43,110 --> 00:10:46,560
+fundamental para programar, tanto así que
+
+263
+00:10:46,560 --> 00:10:48,990
+algunos lenguajes de programación hasta
+
+264
+00:10:48,990 --> 00:10:50,279
+fuerzan en la indentación del
+
+265
+00:10:50,279 --> 00:10:53,310
+programador, es decir, solamente funciona
+
+266
+00:10:53,310 --> 00:10:55,170
+aquí el código que está correctamente
+
+267
+00:10:55,170 --> 00:10:57,130
+indentado.
+
+268
+00:10:57,130 --> 00:10:59,170
+El último elemento de estilo que veremos
+
+269
+00:10:59,170 --> 00:11:01,480
+por hoy, consiste en una herramienta que
+
+270
+00:11:01,480 --> 00:11:04,240
+permite dejar anotaciones, tanto para
+
+271
+00:11:04,240 --> 00:11:06,730
+nosotros en el futuro, como para otros
+
+272
+00:11:06,730 --> 00:11:08,080
+programadores que puedan ver nuestro
+
+273
+00:11:08,080 --> 00:11:11,170
+código. Esta herramienta se conoce como
+
+274
+00:11:11,170 --> 00:11:13,780
+comentario y existe en la mayoría de los
+
+275
+00:11:13,780 --> 00:11:16,630
+lenguajes de programación. Un comentario
+
+276
+00:11:16,630 --> 00:11:18,100
+consiste en una parte del texto de
+
+277
+00:11:18,100 --> 00:11:20,680
+nuestra solución que no será tenido en
+
+278
+00:11:20,680 --> 00:11:23,500
+cuenta por la computadora, es decir, es un
+
+279
+00:11:23,500 --> 00:11:26,110
+mensaje para las personas, no para la
+
+280
+00:11:26,110 --> 00:11:29,200
+máquina. En un comentario, podemos dejar
+
+281
+00:11:29,200 --> 00:11:31,300
+información como: realiza el código
+
+282
+00:11:31,300 --> 00:11:34,810
+o cuando. Que realiza el programa, y
+
+283
+00:11:34,810 --> 00:11:37,060
+además, algunas anotaciones interesantes
+
+284
+00:11:37,060 --> 00:11:38,650
+que pueden ser pertinentes para otros
+
+285
+00:11:38,650 --> 00:11:40,259
+programadores.
+
+286
+00:11:40,259 --> 00:11:42,509
+Los comentarios tienen por efecto
+
+287
+00:11:42,509 --> 00:11:45,239
+lateral, poder desactivar porciones del
+
+288
+00:11:45,239 --> 00:11:47,999
+código, es decir, poder hacer que una
+
+289
+00:11:47,999 --> 00:11:49,829
+determinada porción del código sea
+
+290
+00:11:49,829 --> 00:11:52,679
+ignorada por la computadora. Si bien esta
+
+291
+00:11:52,679 --> 00:11:54,419
+característica puede ser útil para, por ejemplo,
+
+292
+00:11:54,419 --> 00:11:56,789
+encontrar algunos errores o
+
+293
+00:11:56,789 --> 00:11:59,279
+realizar determinadas pruebas, hay que
+
+294
+00:11:59,279 --> 00:12:01,229
+tener mucho cuidado con dejar código
+
+295
+00:12:01,229 --> 00:12:03,389
+comentado en las soluciones finales, algo
+
+296
+00:12:03,389 --> 00:12:06,809
+que se conoce como código muerto. Algunos
+
+297
+00:12:06,809 --> 00:12:09,600
+comentarios son particularmente útiles y
+
+298
+00:12:09,600 --> 00:12:11,220
+queremos que estén en todos los
+
+299
+00:12:11,220 --> 00:12:13,589
+programas que realizamos. Veremos mucho
+
+300
+00:12:13,589 --> 00:12:15,359
+más sobre este tipo de comentarios en el
+
+301
+00:12:15,359 --> 00:12:16,960
+próximo vídeo.
+
+302
+00:12:16,960 --> 00:12:19,690
+Nos veremos entonces, en el próximo vídeo.
+
+303
+00:12:19,690 --> 00:12:22,920
+Hasta la próxima.
+
